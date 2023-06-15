@@ -11,6 +11,8 @@
     4. Areas
         4.1 Header
         4.2 Introduction
+        4.3 Ref
+
         etc.
     5. Media Queries
 ////////////////////////*/
@@ -55,6 +57,7 @@ h3  {
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     flex-basis: 1000px;
 }
 
@@ -77,6 +80,7 @@ button {
 /* ------------------------------- 4. Areas ---------------------------------------- */
 header {
     background-color: #4845E4;
+    max-width: 1000px;
 }
 
 /* --------------- 4.1 Header ------------------------- */
@@ -165,7 +169,53 @@ header {
 .main-marketing-text p {
     display: flex;
     justify-content: center;
-
+    padding-bottom: 50px;
 }
 
+/* --------------- 4.3 Ref ----------------- */
+
+main {
+    max-width: 1000px;
+}
+
+
+.main-ref {
+    display: flex;
+    background-color: #F3F6F9;
+}
+
+.main-ref article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 50px 50px 50px 50px
+}
+
+.main-ref img {
+    display: flex;
+    max-width: 700px;
+    padding: 50px 50px 50px 50px
+}
+
+.main-ref-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
 /* ------------------------------- 5. Media Queries -------------------------------- */
+
+div .services {
+    display: flex;
+    flex-direction: column;
+    color: #5722CD;
+    background-color: #F3F6F9;
+    border-color: #5722CD;
+    border-radius: 0px;
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
