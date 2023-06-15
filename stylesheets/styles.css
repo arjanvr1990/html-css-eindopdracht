@@ -46,7 +46,7 @@ h1,h2,h4,h5,h6 {
 }
 
 h3  {
-    font-family: 'roboto';
+    font-family: 'roboto' sans-serif;
 }
 
 
@@ -135,6 +135,37 @@ header {
 }
 
 
-/* --------------- 4.2 Introduction ------------------- */
+/* --------------- 4.2 Introduction ----------------- */
+
+.main-marketing-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-marketing-text ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #4845E4;
+    list-style: none;
+    padding: 80px 100px 80px 100px;
+}
+
+.main-marketing-text li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'merriweather' sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.main-marketing-text p {
+    display: flex;
+    justify-content: center;
+
+}
 
 /* ------------------------------- 5. Media Queries -------------------------------- */
