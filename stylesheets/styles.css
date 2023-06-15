@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,100;1,200;1,300&display=swap');
+
+/*////////////////////////
+    Table of Contents
+    1. Global Styles
+    2. Typography
+    3. Layout
+        3.1 Reusables
+        3.2 Other
+    4. Areas
+        4.1 Header
+        4.2 Introduction
+        etc.
+    5. Media Queries
+////////////////////////*/
+
+
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --Paars #5722CD;
+    --Blauw #4845E4;
+    --Roze #ED4385;
+    --Zwart #0C0C0C;
+    --Lichtpaars #F2F0FF;
+    --Lichtgrijs #F3F6F9;
+    --Grijs #7A7A7A;
+}
+
+body    {
+    color: var(--Zwart);
+    background-color: var(--Lichtgrijs);
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+h1,h2,h4,h5,h6 {
+    font-family: 'merriweather' sans-serif;
+}
+
+h3  {
+    font-family: 'roboto';
+}
+
+
+/* ------------------------------- 3. Layout --------------------------------------- */
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1000px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2F0FF;
+    background-color: #ED4385;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.15);
+}
+/* --------------- 3.1 Reusables ----------------------- */
+
+/* --------------- 3.2 Other --------------------------- */
+
+/* ------------------------------- 4. Areas ---------------------------------------- */
+header {
+    background-color: #4845E4;
+}
+
+/* --------------- 4.1 Header ------------------------- */
+
+
+.navigatie {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 10px;
+}
+
+.navigatie ul {
+    display: flex;
+    flex-basis: 300px;
+    justify-content: space-around;
+    color: #F2F0FF;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 700px;
+    align-items: center;
+}
+
+
+.header-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 70px 100px 20px 100px;
+    color: #F2F0FF;
+}
+
+.header-quote {
+    padding-bottom: 30px;
+    color: #F2F0FF;
+}
+
+.header-button {
+
+}
+
+.squiggle-line {
+    fill: #F2F0FF;
+    padding-top: 50px;
+
+}
+
+.squiggle-line-stripe {
+    fill: #F2F0FF;
+    height: 70px;
+}
+
+
+/* --------------- 4.2 Introduction ------------------- */
+
+/* ------------------------------- 5. Media Queries -------------------------------- */
